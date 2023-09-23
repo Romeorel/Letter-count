@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- relative link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS link to style.css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Javascript link -->
+    <script src="./script.js" defer></script>
+
+    <!-- Title on the bar -->
+    <title>Letter Count</title>
+</head>
+<body>
+    
+    <!-- Upper Background div -->
+    <div class="background"></div>
+
+    <!-- Main Heading -->
+    <h1 class="first-heading">
+        Social Media <span class="first-heading--special">Character Count</span>
+    </h1>
+
+    <!--Section container / left side -->
+    <div class="container">
+        <textarea class="textarea"></textarea>
+
+        <!-- Main Section stats / right side -->
+        <section class="stats">
+            <!-- Subsection 1 of the stats section -->
+            <section class="stat">
+                <span class="stat__number stat__number--words">0</span>
+                <h2 class="second-heading">Words</h2>
+            </section>
+            <!-- Subsection 2 of the stats section -->
+            <section class="stat">
+                <span class="stat__number stat__number--characters">0</span>
+                <h2 class="second-heading">Characters</h2>
+            </section>
+            <!-- Subsection 3 of the stats section -->
+            <section class="stat">
+                <span class="stat__number stat__number--twitter">280</span>
+                <h2 class="second-heading">Twitter</h2>
+            </section>
+            <!-- Subsection 4 of the stats section -->
+            <section class="stat">
+                <span class="stat__number stat__number--instagram">2200</span>
+                <h2 class="second-heading">Instagram</h2>
+            </section>
+
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <small class="copyright">&copy; All rights reserved.</small>
+        <small class="date update">Last update: Sept 2023</small>
+    </footer>
+
+</body>
+</html>

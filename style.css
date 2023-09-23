@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* put all elements into box */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rambla', sans-serif;
+    background-color: whitesmoke;
+}
+
+.background {
+    background-image: 
+    linear-gradient(to right, #d299c2 0%,#fef9d7 100%),
+    url('./img/spenser-sembrat-j165JX01FLE-unsplash.jpg');
+    height: 254px;
+    width: 100%;
+    background-size: cover;
+}
